@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    max-width: 5%;
+}
+
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+#dot{
+    color: orange;
+}
+
+.projects-header{
+    font-family: 'Robot', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#our-header{
+    color: orange;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects-info{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 30px 30px;
+    animation: zoomInDown;
+    animation-duration: 2s;
+
+
+}
+
+.projects-info p{
+    font-size: 2rem;
+    padding-left: 60px;
+    padding-top: 90px;
+    
+}
+
+#team-color{
+    color: orange;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center; 
+    margin-top: 80px;
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about-para{
+    width: 40%;
+}
+
+.about-clients{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+.projects-exp{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.projects-exp p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 25px;
+}
+
+.more-header{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.exp-row2{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-top: 15px;
+}
+
+#samsung-text{
+    margin-top: 20px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#important{
+    color: #ffa500;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-top: 20px;
+    color: white;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.copyrigth{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+    color: grey;
+}
+
+.date-box{
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+    width: 100%;
+    font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}

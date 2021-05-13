@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #24252A;
+}
+
+li, a, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    max-width: 5%;
+}
+
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+#dot{
+    color: #ffa500;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.about-career{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.about-career p{
+    padding-top: 80px;
+}
+
+#important{
+    color: #ffa500;
+}
+
+.offers-header{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+/* OFFERTS */
+
+.offerts-box{
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+    width: 50%;
+    height: 200px;
+    background: linear-gradient(
+    to right bottom,
+     rgba(52,43,41, 0.2),
+     rgba(74,70,70, 0.3)
+);
+    border-radius: 4rem;
+    box-shadow: 3px 3px 10px rgba(82, 81, 81, 0.212);
+}
+
+.oferts{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    margin: auto 0;
+
+}
+
+.oferts p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: auto 0;
+    padding: 0rem 1rem;
+}
+
+footer{
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-top: 20px;
+    color: white;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.copyrigth{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+    color: grey;
+}
+
+.date-box{
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+    width: 100%;
+    font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}
